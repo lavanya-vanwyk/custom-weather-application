@@ -3,16 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>SeasonStat</title>
 </head>
 <body>
+    <div class="app-container">
     <header>
         <h1>Welcome to SeasonStat</h1>
     </header>
+    <main>
+        <section>
+            <form id="search-form">
+                <input
+                    type="search"
+                    placeholder="Enter a city.."
+                    required
+                    class="search-input"
+                    id="search-input"
+                />
+                <input type="submit" value="Search" class="search-button" />
+            </form>
+        </section>
+    </main>
     <footer>
         <p>This website was coded by <a href="https://github.com/lavanya-vanwyk" target="_blank">Lavanya van Wyk</a>, code hosted on 
             <a href="https://github.com/lavanya-vanwyk/custom-weather-application" target="_blank">GitHub</a>, and website hosted on 
             <a href="https://legendary-melomakarona-ccab0a.netlify.app/" target="_blank">Netlify</a></p>
     </footer>
+    </div>
+    <script src="src/index.js"></script>
 </body>
 </html>

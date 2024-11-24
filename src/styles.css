@@ -1,0 +1,18 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+.app-container {
+    display: block;
+    height: 50vh;
+    width: 70vw;
+    border-radius: 20px;
+    margin: auto;
+    padding: 60px;
+    border-style: groove;
+    border-color: black;
+}
+
+header, footer {
+    text-align: center;
+}
