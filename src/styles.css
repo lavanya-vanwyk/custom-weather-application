@@ -5,9 +5,9 @@ body {
 .app-container {
     display: block;
     height: 50vh;
-    width: 70vw;
+    width: 50vw;
     border-radius: 20px;
-    margin: auto;
+    margin: 60px auto;
     padding: 60px;
     border-style: groove;
     border-color: black;
@@ -15,4 +15,77 @@ body {
 
 header, footer {
     text-align: center;
+}
+
+.search-bar {
+    border-bottom: 1px solid #1e5d1fdd;
+    padding-bottom: 30px;
+}
+
+.search-input {
+    background-color: #f9f7fe;
+    border: none;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    padding: 20px;
+    width: 75%;
+    border-radius: 6px;
+}
+
+.search-button {
+    margin-left: 5px;
+    font-size: 16px;
+    background-color: #39ad3bdd;
+    color: white;
+    border: none;
+    padding: 20px;
+    line-height: 1;
+    border-radius: 5px;
+}
+
+.weather-update {
+    padding: 30px 0;
+}
+
+.current-temperature {
+  font-size: 48px;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-city {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+.current-details {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.current-details strong {
+  color: #f65282;
+}
+
+.current-temperature-icon {
+  position: relative;
+  top: -8px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.current-temperature-value {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.current-temperature-unit {
+  font-size: 28px;
+  position: relative;
+  top: -38px;
 }
