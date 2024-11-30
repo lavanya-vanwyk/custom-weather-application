@@ -50,7 +50,6 @@ header {
 }
 
 .current-temperature {
-  font-size: 72px;
   color:green;
 }
 
@@ -82,8 +81,7 @@ header {
 
 .current-temperature-icon {
   position: relative;
-  top: -8px;
-  font-size: 40px;
+  top: 12px;
   margin-right: 10px;
 }
 
