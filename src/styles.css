@@ -5,10 +5,10 @@ body {
 }
 .app-container {
     display: block;
-    height: 720px;
+    height: 720px fit-content;
     width: 560px;
     border-radius: 20px;
-    margin: 240px auto;
+    margin: 100px auto;
     padding: 60px;
     border-style: groove;
     border-color: black;
@@ -94,4 +94,38 @@ header {
   font-size: 56px;
   position: relative;
   top: -38px;
+}
+
+.forecast-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.forcast-date {
+  
+}
+.forecast-day {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+.forecast-temperatures {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+  color: #f65282;
+}
+
+.forecast-temperature {
+  padding: 0 10px;
 }
