@@ -73,6 +73,7 @@ function getForecast(city) {
 
 function displayForecast(response) {
   
+console.log(response.data.daily);
 
   let forecastHtml = "";
 
@@ -81,7 +82,7 @@ function displayForecast(response) {
       forecastHtml +
       `<div class="forcast-date">
             <div class="forecast-day">Tue</div>
-            <div class="forecast-icon">🌤️</div>
+            <div class="forecast-icon"><img src="${day.condition.icon_url}" class="forecast-icon"/></div>
             
             <div class="forecast-temperatures">
               <div class="forecast-temperature"><strong>${Math.round(day.temperature.maximum)}°C</strong></div>
