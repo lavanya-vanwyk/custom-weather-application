@@ -1,52 +1,52 @@
 body {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
     
 }
 .app-container {
-    display: block;
-    height: 720px fit-content;
-    width: 560px;
-    border-radius: 20px;
-    margin: 100px auto;
-    padding: 120px;
-    border-style: groove;
-    border-color: black;
+  display: block;
+  height: 720px fit-content;
+  width: 560px;
+  border-radius: 20px;
+  margin: 100px auto;
+  padding: 120px;
+  border-style: groove;
+  border-color: black;
 }
 
 header {
-    text-align: center;
-    font-size: 32px;
+  text-align: center;
+  font-size: 32px;
 }
 
 .search-bar {
-    border-bottom: 1px solid #1e5d1fdd;
-    padding-bottom: 30px;
+  border-bottom: 1px solid #1e5d1fdd;
+  padding-bottom: 30px;
 }
 
 .search-input {
-    background-color: #f9f7fe;
-    border: none;
-    color: rgba(39, 33, 66, 0.4);
-    font-size: 22px;
-    padding: 20px;
-    width: 75%;
-    border-radius: 6px;
+  background-color: #f9f7fe;
+  border: none;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 22px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
 }
 
 .search-button {
-    margin-left: 10px;
-    font-size: 22px;
-    background-color: #39ad3bdd;
-    color: white;
-    border: none;
-    padding: 20px;
-    line-height: 1;
-    border-radius: 5px;
+  margin-left: 10px;
+  font-size: 22px;
+  background-color: #39ad3bdd;
+  color: white;
+  border: none;
+  padding: 20px;
+  line-height: 1;
+  border-radius: 5px;
 }
 
 .weather-update {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 
 .current-temperature {
@@ -99,7 +99,6 @@ header {
 .forecast-container{
   display: flex;
   justify-content: center;
-  /* flex-direction: row; */
   margin-top: 30px;
   margin-bottom: 60px;
 }
