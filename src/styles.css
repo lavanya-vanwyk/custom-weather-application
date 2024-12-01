@@ -99,9 +99,13 @@ header {
 .forecast-container{
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  /* flex-direction: row; */
   margin-top: 30px;
   margin-bottom: 60px;
+}
+.weather-forecast {
+  display: flex;
+  flex-direction: row;
 }
 
 .forecast-day {
