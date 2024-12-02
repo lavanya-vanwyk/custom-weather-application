@@ -1,26 +1,32 @@
 body {
   height: 100%;
   width: 100%;
-    
+  font-family: "Tomorrow", sans-serif;
+  background-image: url("https://i.pinimg.com/originals/f4/92/07/f492072849d8b61b681fd861dd820b20.jpg");
 }
 .app-container {
   display: block;
   height: 720px fit-content;
-  width: 560px;
+  width: 540px;
   border-radius: 20px;
-  margin: 100px auto;
+  margin: auto;
   padding: 120px;
-  border-style: groove;
-  border-color: black;
+  background-color: rgba(255, 255, 255, 0.651);
+  border-style:outset;
+  border-color: #BFADD7;
+  box-shadow: 5px 10px rgba(39, 33, 66, 0.4);
 }
 
 header {
   text-align: center;
   font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  color:#2D4348;
 }
 
 .search-bar {
-  border-bottom: 1px solid #1e5d1fdd;
+  border-bottom: 1px solid #481e5ddd;
   padding-bottom: 30px;
 }
 
@@ -29,6 +35,7 @@ header {
   border: none;
   color: rgba(39, 33, 66, 0.4);
   font-size: 22px;
+  font-family: "Tomorrow", sans-serif;
   padding: 20px;
   width: 75%;
   border-radius: 6px;
@@ -37,7 +44,8 @@ header {
 .search-button {
   margin-left: 10px;
   font-size: 22px;
-  background-color: #39ad3bdd;
+  font-family: "Tomorrow", sans-serif;
+  background-color: #184069;
   color: white;
   border: none;
   padding: 20px;
@@ -50,7 +58,7 @@ header {
 }
 
 .current-temperature {
-  color:green;
+  color:#2D4348;
 }
 
 .current-weather {
@@ -61,14 +69,13 @@ header {
 
 .current-city {
   font-size: 96px;
-  font-weight: 900;
-  letter-spacing: 6px;
+  font-weight: 400;
   text-align: center;
   margin: 0;
-  color: blue;
+  color: #184069;
 }
 .current-details {
-  color: red;
+  color: rgba(39, 33, 66, 0.4);
   font-size: 28px;
   font-weight: 400;
   line-height: 24px;
@@ -76,7 +83,7 @@ header {
 }
 
 .current-details strong {
-  color: orange;
+  color: #965179;
 }
 
 .current-temperature-icon {
@@ -110,22 +117,42 @@ header {
 .forecast-day {
   text-align: center;
   color: rgba(39, 33, 66, 0.4);
-  font-size: 16px;
+  font-size: 22px;
   line-height: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .forecast-icon {
   width: 72px;
   margin: 0 auto;
+  background-color: #A09AB4;
+  border-radius: 20px;
+  transition: ease-in-out 50ms;
+}
+.forecast-icon:hover {
+  box-shadow: 5px 10px #965179;
+}
+.forecast-temperatures strong {
+  font-size: 22px;
+  color: #965179;
 }
 .forecast-temperatures {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin: 20px 0px;
   text-align: center;
-  color: #f65282;
+  font-size: 22px;
+  color: #B56C89;
 }
 
 .forecast-temperature {
   padding: 0 10px;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+a:hover {
+  color: #965179;
 }
