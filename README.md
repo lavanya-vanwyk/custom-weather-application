@@ -29,6 +29,8 @@ Enter the project directory:
 
 Open `index.html` in your preferred web browser.
 
+Enter any city in the search bar and click 'search' or press Enter. The searched city name will display with the current date, time, and weather data. It will also display a 5-day forcast for the searched city.
+
 ### A massive vote of thanks to SheCodes for providing me with this amazing learning opportunity. 
 
 [Link to live project page](https://legendary-melomakarona-ccab0a.netlify.app/)
