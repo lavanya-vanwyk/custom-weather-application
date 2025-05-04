@@ -17,6 +17,18 @@ The aim of this project was to build a functional and beautiful weather applicat
 * Netlify
 * Aseprite
 
+## Running instructions
+
+Clone the repository:
+
+`$ git clone https://github.com//lavanya-vanwyk/custom-weather-application.git`
+
+Enter the project directory:
+
+`cd custom-weather-application`
+
+Open `index.html` in your preferred web browser.
+
 ### A massive vote of thanks to SheCodes for providing me with this amazing learning opportunity. 
 
 [Link to live project page](https://legendary-melomakarona-ccab0a.netlify.app/)
