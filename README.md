@@ -10,7 +10,6 @@ The aim of this project was to build a functional and beautiful weather applicat
 ## Tech stack & tools
 
 * JavaScript ES6
-* Bootstrap 4.5.3
 * Prettier 11.0.0.
 * SheCodes Weather API
 * Font Awesome
