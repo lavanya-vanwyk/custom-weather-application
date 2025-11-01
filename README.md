@@ -32,4 +32,4 @@ Enter any city in the search bar and click 'search' or press Enter. The searched
 
 ### A massive vote of thanks to SheCodes for providing me with this amazing learning opportunity. 
 
-[Link to live project page](https://legendary-melomakarona-ccab0a.netlify.app/)
+[Link to live project page](https://seasonstat.netlify.app/)
